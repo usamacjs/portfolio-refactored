@@ -1,0 +1,22 @@
+{
+  "name": "travel-agency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usamacjs/travel-agency.git"
+  },
+  "author": "Usama Mahmood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usamacjs/travel-agency/issues"
+  },
+  "homepage": "https://github.com/usamacjs/travel-agency#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
