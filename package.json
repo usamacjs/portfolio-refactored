@@ -1,7 +1,7 @@
 {
   "name": "travel-agency",
   "version": "1.0.0",
-  "description": "",
+  "description": "A travel website template",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/usamacjs/travel-agency#readme",
   "devDependencies": {
     "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.15.0"
   }
 }
