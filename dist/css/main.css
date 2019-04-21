@@ -7020,25 +7020,11 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-body {
-  background: red; }
+.jumbotron-fluid {
+  height: 60vh;
+  text-align: center;
+  margin-bottom: 0;
+  overflow: hidden; }
 
-.custom-carl {
-  background-color: #333;
-  width: 300px;
-  height: 200px;
-  margin-top: 1rem; }
-
-.carl-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 0.1rem;
-  justify-content: center;
-  align-content: center; }
-
-.carl-container:nth-child(1) {
-  margin-left: 4rem; }
-
-.carousel-control-prev {
-  margin: 0;
-  padding: 0; }
+.jumbotron {
+  background: url("/dist/img/logos/about.jpg") no-repeat center center/cover; }
