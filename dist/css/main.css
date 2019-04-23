@@ -7109,6 +7109,9 @@ body {
   color: #fff;
   text-align: center; }
 
+#works i {
+  margin-right: .5rem; }
+
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -7189,7 +7192,7 @@ body {
       box-sizing: border-box;
       transition: all 0.3s; }
       .item-text-title a:hover {
-        opacity: 0.9; }
+        opacity: 0.8; }
   .item-text-category {
     text-transform: uppercase;
     font-size: 1.2rem;
