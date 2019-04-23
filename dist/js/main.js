@@ -1,5 +1,5 @@
 // Smooth Scrolling
-$("#navbar a").on("click", function(event) {
+$("#main-navv a").on("click", function (event) {
   if (this.hash !== "") {
     event.preventDefault();
 
@@ -13,3 +13,5 @@ $("#navbar a").on("click", function(event) {
     );
   }
 });
+
+$('body').scrollspy({ target: '#main-navv' });
