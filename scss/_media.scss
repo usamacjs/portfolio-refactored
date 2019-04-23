@@ -1,0 +1,20 @@
+// Tablets & Smaller
+@media (max-width: 800px) {
+}
+
+// Smartphones
+@media (max-width: 500px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a {
+    margin: 0 0.2rem;
+  }
+}
+
+// Landscape
+@media (max-height: 580px) {
+}

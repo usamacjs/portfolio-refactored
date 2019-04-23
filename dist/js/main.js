@@ -1,5 +1,3 @@
-const bootstrap = require("bootstrap");
-
 // Smooth Scrolling
 $("#navbar a").on("click", function(event) {
   if (this.hash !== "") {
