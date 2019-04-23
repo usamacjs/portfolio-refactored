@@ -7090,7 +7090,7 @@ body {
     text-decoration: none;
     color: #fff;
     font-weight: 300;
-    padding: 8px 18px;
+    padding: 16px 30px;
     border-radius: 3px;
     box-sizing: border-box;
     transition: all 0.3s; }
@@ -7175,9 +7175,10 @@ body {
     transform: translateY(-50%); }
   .item-text-title {
     font-size: 1rem;
-    padding: 0 1rem;
+    padding: 0rem;
     margin: 15px 0 0 0; }
     .item-text-title a {
+      display: block;
       background-color: #e50914;
       text-decoration: none;
       color: #fff;
@@ -7194,20 +7195,25 @@ body {
     font-size: 1.2rem;
     margin: 0; }
 
+#works-mobile {
+  display: none; }
+  #works-mobile h1 {
+    color: #fff;
+    text-align: center;
+    margin: 1rem; }
+  #works-mobile .items {
+    display: grid;
+    grid-template-columns: 1fr; }
+
 #skills {
   overflow: hidden; }
   #skills h1 {
     color: #fff;
     text-align: center; }
   #skills img {
-    width: 100%; }
-  #skills .logos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
-    #skills .logos div {
-      margin: 0 1rem; }
+    width: 70%;
+    display: block;
+    margin: 0.55rem auto; }
 
 #contact h1 {
   color: #fff;
@@ -7236,10 +7242,52 @@ body {
       #contact .card .card-body .btn-primary:hover {
         opacity: 0.8; }
 
+#main-footer {
+  color: #fff;
+  border-top: 1px solid #e50914; }
+  #main-footer p {
+    padding: 1rem; }
+
+@media (max-width: 800px) {
+  #showcasee {
+    height: 80vh; } }
+
 @media (max-width: 500px) {
-  #navbar {
+  #main-navv {
     flex-direction: column;
     align-items: center;
     justify-content: center; }
   a {
-    margin: 0 0.2rem; } }
+    margin: 0 0.2rem; }
+  #showcasee .display-1 {
+    font-size: 3.5rem; }
+  #showcasee .display-4 {
+    font-size: 2rem; }
+  #showcasee h4 {
+    padding-top: calc(15vh); }
+  #showcasee p {
+    margin: 1rem;
+    font-size: 1rem; }
+  #showcasee .button {
+    padding: 10px 24px; }
+  #works-mobile {
+    display: grid; }
+  #works {
+    display: none; }
+  #contact .contact {
+    flex-direction: column; } }
+
+@media (max-height: 580px) {
+  #showcasee {
+    height: 100vh; }
+    #showcasee .display-1 {
+      font-size: 3.5rem; }
+    #showcasee .display-4 {
+      font-size: 2rem; }
+    #showcasee h4 {
+      padding-top: calc(23vh); }
+    #showcasee p {
+      margin: 1rem;
+      font-size: 1rem; }
+    #showcasee .button {
+      padding: 10px 24px; } }
