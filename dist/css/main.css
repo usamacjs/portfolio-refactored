@@ -7093,7 +7093,8 @@ body {
     padding: 16px 30px;
     border-radius: 3px;
     box-sizing: border-box;
-    transition: all 0.3s; }
+    transition: all 0.3s;
+    font-size: 1.2rem; }
     #showcasee .button:hover {
       opacity: 0.8; }
 
