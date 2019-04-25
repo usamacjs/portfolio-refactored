@@ -13,5 +13,3 @@ $("#main-navv a").on("click", function (event) {
     );
   }
 });
-
-$('body').scrollspy({ target: '#main-navv' });
