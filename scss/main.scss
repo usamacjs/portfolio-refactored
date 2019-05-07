@@ -1,5 +1,10 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+
 @import url("https://fonts.googleapis.com/css?family=Kanit");
+@font-face {
+  font-family: 'Genericons';
+  src: url("../fonts/genericons-regular-webfont.eot") format("truetype");
+  src: url("../fonts/genericons-regular-webfont.woff") format("woff"); 
+}
 
 $main-color: #e50914;
 $dark-color: #000000;
@@ -276,45 +281,48 @@ body {
     margin: 0.55rem auto;
   }
 
+  #skills2 {
+    width: 60%;
+  }
+  #skills3 {
+    width: 50%;
+  }
+
  
 }
 
 #contact {
+
   h1 {
-    color: $light-color;
     text-align: center;
+    color: $light-color;
   }
-  .contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .card {
-    margin: 1rem 2rem;
-    color: white;
-    background: $dark-color;
 
-    .card-body {
-      background-color: $dark-color;
-      border-color: $dark-color;
+    .social {
       display: flex;
-      flex-direction: column;
+      justify-content: center;
       align-items: center;
-      justify-items: center;
+    }
+    .social .fab {
+      margin-right: 1rem;
+      margin-top: 1rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 160px;
+      width: 160px;
+      line-height: 160px;
+      text-align: center;
+      padding: 0.5rem;
+      cursor: pointer;
+      color: $light-color;
+    
 
-      .btn {
-        border: none;
-      }
-      .btn-primary {
+      &:hover {
         background: $main-color;
-
-        &:hover {
-          opacity: 0.8;
-        }
       }
     }
   }
-}
+  
 
 #main-footer {
   color: $light-color;
