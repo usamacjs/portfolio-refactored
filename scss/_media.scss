@@ -1,7 +1,7 @@
 // Tablets & Smaller
 @media (max-width: 800px) {
   #showcasee {
-    height: 80vh;
+    height: 100vh;
   }
 }
 
@@ -48,10 +48,22 @@
     display: none;
   }
 
+  #skills {
+    #skills1 {
+      width: 90%;
+    }
+    #skills2 {
+      width: 80%;
+    }
+    #skills3 {
+      width: 60%;
+    }
+  }
+
   #contact {
     .social {
-      display: flex;
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
       justify-items: center;
       align-items: center;
     }
