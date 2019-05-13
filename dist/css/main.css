@@ -42,7 +42,7 @@ body {
       font-size: 1.2rem;
       text-decoration: none;
       border-bottom: 2px transparent solid;
-      transition: all 0.5s ease-in; }
+      transition: all 0.1s ease-in; }
     #main-navv ul li :hover {
       border-bottom: 2px #e50914 solid;
       color: #e50914; }
@@ -168,6 +168,15 @@ body {
     width: 100%;
     top: 50%;
     transform: translateY(-50%); }
+    .item-text-wrap .category {
+      display: inline-block;
+      color: #fff;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      padding: 0.4rem 0.6rem;
+      border-radius: 15px;
+      margin-bottom: 0.5rem;
+      background: #e50914; }
   .item-text-title {
     font-size: 1rem;
     padding: 0rem;
@@ -210,13 +219,13 @@ body {
     color: #fff;
     text-align: center; }
   #skills img {
-    width: 70%;
+    width: 60%;
     display: block;
     margin: 0.55rem auto; }
   #skills #skills2 {
-    width: 60%; }
-  #skills #skills3 {
     width: 50%; }
+  #skills #skills3 {
+    width: 40%; }
 
 #contact h2 {
   text-align: center;
@@ -232,15 +241,20 @@ body {
   margin-top: 1rem;
   border: 2px #fff solid;
   border-radius: 50%;
-  height: 160px;
-  width: 160px;
-  line-height: 160px;
+  height: 80px;
+  width: 80px;
+  line-height: 70px;
   text-align: center;
   padding: 0.5rem;
   cursor: pointer;
-  color: #fff; }
+  color: #fff;
+  transition: all .2s ease-in; }
   #contact .social .fab:hover {
-    background: #e50914; }
+    background: #e50914;
+    transform: translateY(-15px); }
+
+.skill-contact {
+  display: flex; }
 
 #main-footer {
   color: #fff;
@@ -281,8 +295,7 @@ body {
   #skills #skills3 {
     width: 60%; }
   #contact .social {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     justify-items: center;
     align-items: center; }
   #contact .social .fab {
@@ -290,9 +303,9 @@ body {
     margin-top: 1rem;
     border: 2px #fff solid;
     border-radius: 50%;
-    height: 130px;
-    width: 130px;
-    line-height: 130px;
+    height: 60px;
+    width: 60px;
+    line-height: 50px;
     text-align: center;
     padding: 0.5rem;
     cursor: pointer;

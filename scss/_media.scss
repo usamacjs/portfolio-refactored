@@ -62,8 +62,7 @@
 
   #contact {
     .social {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      display: flex;
       justify-items: center;
       align-items: center;
     }
@@ -72,9 +71,9 @@
       margin-top: 1rem;
       border: 2px #fff solid;
       border-radius: 50%;
-      height: 130px;
-      width: 130px;
-      line-height: 130px;
+      height: 60px;
+      width: 60px;
+      line-height: 50px;
       text-align: center;
       padding: 0.5rem;
       cursor: pointer;

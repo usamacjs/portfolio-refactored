@@ -60,7 +60,7 @@ body {
         font-size: 1.2rem;
         text-decoration: none;
         border-bottom: 2px transparent solid;
-        transition: all 0.5s ease-in;
+        transition: all 0.1s ease-in;
       }
 
       :hover {
@@ -232,6 +232,17 @@ height: 30px;
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
+
+    .category {
+      display: inline-block;
+      color: #fff;
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      padding: 0.4rem 0.6rem;
+      border-radius: 15px;
+      margin-bottom: 0.5rem;
+      background: $main-color;
+    }
   }
 
   &-text-title {
@@ -291,16 +302,16 @@ height: 30px;
   }
 
   img {
-    width: 70%;
+    width: 60%;
     display: block;
     margin: 0.55rem auto;
   }
 
   #skills2 {
-    width: 60%;
+    width: 50%;
   }
   #skills3 {
-    width: 50%;
+    width: 40%;
   }
 
  
@@ -323,19 +334,25 @@ height: 30px;
       margin-top: 1rem;
       border: 2px #fff solid;
       border-radius: 50%;
-      height: 160px;
-      width: 160px;
-      line-height: 160px;
+      height: 80px;
+      width: 80px;
+      line-height: 70px;
       text-align: center;
       padding: 0.5rem;
       cursor: pointer;
       color: $light-color;
+      transition: all .2s ease-in;
     
 
       &:hover {
-        background: $main-color;
+        background: $main-color; 
+        transform: translateY(-15px);
       }
     }
+  }
+
+  .skill-contact {
+    display: flex;
   }
   
 
@@ -347,5 +364,7 @@ height: 30px;
     padding: 1rem;
   }
 }
+
+
 
 @import "media";
