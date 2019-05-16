@@ -234,11 +234,15 @@ body {
 #contact .social {
   display: flex;
   justify-content: center;
+  align-content: center;
+  justify-items: center;
   align-items: center; }
+  #contact .social a {
+    margin: 0;
+    padding: 0; }
 
 #contact .social .fab {
-  margin-right: 1rem;
-  margin-top: 1rem;
+  margin: 1rem;
   border: 2px #fff solid;
   border-radius: 50%;
   height: 80px;
@@ -297,10 +301,9 @@ body {
   #contact .social {
     display: flex;
     justify-items: center;
-    align-items: center; }
+    align-items: center;
+    margin: 0 2rem; }
   #contact .social .fab {
-    margin-right: 1rem;
-    margin-top: 1rem;
     border: 2px #fff solid;
     border-radius: 50%;
     height: 65px;

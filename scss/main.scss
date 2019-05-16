@@ -325,13 +325,20 @@ height: 30px;
   }
 
     .social {
+
+      a {
+        margin: 0;
+        padding: 0;
+      }
       display: flex;
       justify-content: center;
+      align-content: center;
+      justify-items: center;
       align-items: center;
+
     }
     .social .fab {
-      margin-right: 1rem;
-      margin-top: 1rem;
+      margin: 1rem;
       border: 2px #fff solid;
       border-radius: 50%;
       height: 80px;
