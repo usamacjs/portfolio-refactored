@@ -326,10 +326,6 @@ height: 30px;
 
     .social {
 
-      a {
-        margin: 0;
-        padding: 0;
-      }
       display: flex;
       justify-content: center;
       align-content: center;
@@ -338,7 +334,7 @@ height: 30px;
 
     }
     .social .fab {
-      margin: 1rem;
+      margin: .5rem;
       border: 2px #fff solid;
       border-radius: 50%;
       height: 80px;

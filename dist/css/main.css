@@ -237,12 +237,9 @@ body {
   align-content: center;
   justify-items: center;
   align-items: center; }
-  #contact .social a {
-    margin: 0;
-    padding: 0; }
 
 #contact .social .fab {
-  margin: 1rem;
+  margin: .5rem;
   border: 2px #fff solid;
   border-radius: 50%;
   height: 80px;
