@@ -126,8 +126,14 @@ h2 {
 .carousel-control-prev,
 .carousel-control-next {
   width: 7%;
-  color: $main-color;
+  animation: blink 2s linear infinite;
 }
+
+@keyframes blink{
+  0%{opacity: 0.5;}
+  50%{opacity: .75;}
+  100%{opacity: 1;}
+  }
 
 .carousel-control-next-icon, 
 .carousel-control-prev-icon {
