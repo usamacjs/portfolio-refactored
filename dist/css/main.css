@@ -67,7 +67,8 @@ body {
   #showcasee h4 {
     padding-top: calc(20vh); }
   #showcasee p {
-    margin: 2rem 4rem; }
+    margin: 2rem 4rem;
+    padding: 0 7rem; }
   #showcasee .button {
     background-color: #e50914;
     text-decoration: none;
@@ -170,13 +171,13 @@ body {
     transform: translateY(-50%); }
     .item-text-wrap .category {
       display: inline-block;
-      color: #fff;
+      color: #000000;
       font-size: 0.65rem;
       text-transform: uppercase;
       padding: 0.4rem 0.6rem;
       border-radius: 15px;
       margin-bottom: 0.5rem;
-      background: #e50914; }
+      background: #fff; }
   .item-text-title {
     font-size: 1rem;
     padding: 0rem;
@@ -282,7 +283,9 @@ body {
     padding-top: calc(15vh); }
   #showcasee p {
     margin: 1rem;
-    font-size: 1rem; }
+    font-size: 1rem;
+    padding: 0 1rem;
+    text-align: center; }
   #showcasee .button {
     padding: 10px 24px; }
   #works-mobile {

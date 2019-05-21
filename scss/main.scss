@@ -98,6 +98,7 @@ body {
 
   p {
     margin: 2rem 4rem;
+    padding: 0 7rem;
   }
 
   .button {
@@ -235,13 +236,13 @@ height: 30px;
 
     .category {
       display: inline-block;
-      color: #fff;
+      color: $dark-color;
       font-size: 0.65rem;
       text-transform: uppercase;
       padding: 0.4rem 0.6rem;
       border-radius: 15px;
       margin-bottom: 0.5rem;
-      background: $main-color;
+      background: $light-color;
     }
   }
 
