@@ -44,6 +44,12 @@
 
   #works-mobile {
     display: grid;
+
+    .items {
+      grid-template-columns:1fr;
+      margin: 0 .35rem;
+      padding: 0;
+    }
   }
 
   #works {
