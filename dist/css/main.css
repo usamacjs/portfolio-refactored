@@ -229,7 +229,7 @@ h2 {
 
 #contact .social .fab {
   margin: .5rem;
-  border: 2px #fff solid;
+  border: 2px #e50914 solid;
   border-radius: 50%;
   height: 80px;
   width: 80px;
@@ -238,9 +238,11 @@ h2 {
   padding: 0.5rem;
   cursor: pointer;
   color: #fff;
+  background: #e50914;
   transition: all .2s ease-in; }
   #contact .social .fab:hover {
-    background: #e50914;
+    color: #fff;
+    border: 2px #fff solid;
     transform: translateY(-15px); }
 
 .skill-contact {
@@ -282,7 +284,8 @@ h2 {
     display: none; }
   #skills .items {
     display: grid;
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    margin: 0 .35rem; }
   #contact .social {
     display: flex;
     justify-items: center;
@@ -297,7 +300,7 @@ h2 {
     text-align: center;
     padding: 0.5rem;
     cursor: pointer;
-    color: #fff; }
+    color: #e50914; }
     #contact .social .fab:hover {
       background: #e50914; } }
 
