@@ -54,7 +54,6 @@ h2 {
 #showcasee {
   background: #333 url("../img/bg.jpg") no-repeat center center/cover;
   height: 100vh;
-  width: 100vw;
   color: #fff;
   margin-top: -85px;
   overflow: hidden; }
@@ -269,9 +268,36 @@ h2 {
   #main-footer p {
     padding: 1rem; }
 
-@media (max-width: 800px) {
-  #showcasee {
-    height: 100vh; } }
+@media (min-width: 501px) and (max-width: 800px) {
+  .items {
+    margin: 1rem 3rem; }
+  .item-text-wrap .category {
+    font-size: 0.35rem;
+    text-transform: uppercase;
+    padding: 0.2rem 0.3rem;
+    border-radius: 12px;
+    margin-bottom: 0.25rem; }
+  .item-text-title {
+    font-size: .7rem;
+    padding: 0rem;
+    margin: 10px 0 0 0; }
+    .item-text-title a {
+      display: block;
+      font-weight: 200;
+      padding: 4px 10px;
+      margin: .5rem;
+      border-radius: 3px; }
+  .item-text-category {
+    font-size: .5rem;
+    padding: 0 .3rem;
+    margin: .2rem; }
+    .item-text-category a {
+      color: #e50914;
+      text-decoration: underline; }
+      .item-text-category a:hover {
+        opacity: 0.8; }
+  #skills p.item-text-category {
+    font-size: .55rem; } }
 
 @media (max-width: 500px) {
   #main-navv {
@@ -329,13 +355,13 @@ h2 {
   #showcasee {
     height: 100vh; }
     #showcasee .display-1 {
-      font-size: 3.5rem; }
+      font-size: 2.5rem; }
     #showcasee .display-4 {
-      font-size: 2rem; }
+      font-size: 1.5rem; }
     #showcasee h4 {
-      padding-top: calc(23vh); }
+      padding-top: calc(21vh); }
     #showcasee p {
       margin: 1rem;
-      font-size: 1rem; }
+      font-size: .55rem; }
     #showcasee .button {
-      padding: 10px 24px; } }
+      padding: 8px 20px; } }

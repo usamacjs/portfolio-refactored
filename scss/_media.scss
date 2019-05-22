@@ -1,7 +1,50 @@
 // Tablets & Smaller
-@media (max-width: 800px) {
-  #showcasee {
-    height: 100vh;
+@media (min-width: 501px) and (max-width: 800px){
+ .items {
+    margin: 1rem 3rem;
+ }
+
+ .item {
+  &-text-wrap {
+    .category {
+      font-size: 0.35rem;
+      text-transform: uppercase;
+      padding: 0.2rem 0.3rem;
+      border-radius: 12px;
+      margin-bottom: 0.25rem;
+      } 
+    }
+    &-text-title {
+      font-size: .7rem;
+      padding: 0rem;
+      margin: 10px 0 0 0;
+      a {
+        display: block;
+        font-weight: 200;
+        padding: 4px 10px;
+        margin: .5rem;
+        border-radius: 3px;
+      }
+    }
+    &-text-category {
+      font-size: .5rem;
+      padding: 0 .3rem;
+      margin: .2rem;
+      a {
+        color: $main-color;
+        text-decoration: underline;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+
+  #skills {
+    p.item-text-category {
+        font-size: .55rem;
+      }
+    
   }
 }
 
@@ -83,7 +126,6 @@
       color: $light-color;
       background: $main-color;
 
-
       &:hover {
         border: 2px $light-color solid;
         transform: translateY(-15px);
@@ -99,24 +141,24 @@
   #showcasee {
     height: 100vh;
     .display-1 {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
     }
 
     .display-4 {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
 
     h4 {
-      padding-top: calc(23vh)
+      padding-top: calc(21vh)
     }
 
     p {
       margin: 1rem;
-      font-size: 1rem;
+      font-size: .55rem;
     }
 
     .button {
-      padding: 10px 24px;
+      padding: 8px 20px;
     }
   }
 
