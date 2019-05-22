@@ -81,7 +81,7 @@ h2 {
     padding: 16px 30px;
     border-radius: 3px;
     box-sizing: border-box;
-    transition: all 0.3s;
+    transition: all 0.1s;
     font-size: 1.3rem; }
     #showcasee .button:hover {
       opacity: 0.8; }
