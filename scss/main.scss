@@ -126,7 +126,7 @@ h2 {
 .carousel-control-prev,
 .carousel-control-next {
   width: 7%;
-  animation: blink 2s linear infinite;
+  animation: blink s linear infinite;
 }
 
 @keyframes blink{
@@ -158,7 +158,6 @@ height: 30px;
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0);
   margin: 1rem 4rem;
 }
 
@@ -302,28 +301,13 @@ height: 30px;
 }
 
 #skills {
-  overflow: hidden;
 
-  img {
-    width: 60%;
-    display: block;
-    margin: 0.55rem auto;
-  }
+  
+  
 
-  #skills2 {
-    width: 50%;
-  }
-  #skills3 {
-    width: 40%;
-  }
 }
 
 #contact {
-
-  h2 {
-    text-align: center;
-    color: $light-color;
-  }
 
     .social {
 

@@ -51,14 +51,9 @@
   }
 
   #skills {
-    #skills1 {
-      width: 90%;
-    }
-    #skills2 {
-      width: 80%;
-    }
-    #skills3 {
-      width: 60%;
+    .items {
+      display: grid;
+      grid-template-columns: 1fr;
     }
   }
 

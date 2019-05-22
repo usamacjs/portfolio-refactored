@@ -89,7 +89,7 @@ h2 {
 .carousel-control-prev,
 .carousel-control-next {
   width: 7%;
-  animation: blink 2s linear infinite; }
+  animation: blink s linear infinite; }
 
 @keyframes blink {
   0% {
@@ -117,7 +117,6 @@ h2 {
 .items {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  box-shadow: 0 5px 10px 0 rgba(255, 255, 255, 0);
   margin: 1rem 4rem; }
 
 .item {
@@ -221,21 +220,6 @@ h2 {
     color: #fff;
     text-align: center; }
 
-#skills {
-  overflow: hidden; }
-  #skills img {
-    width: 60%;
-    display: block;
-    margin: 0.55rem auto; }
-  #skills #skills2 {
-    width: 50%; }
-  #skills #skills3 {
-    width: 40%; }
-
-#contact h2 {
-  text-align: center;
-  color: #fff; }
-
 #contact .social {
   display: flex;
   justify-content: center;
@@ -296,12 +280,9 @@ h2 {
     display: grid; }
   #works {
     display: none; }
-  #skills #skills1 {
-    width: 90%; }
-  #skills #skills2 {
-    width: 80%; }
-  #skills #skills3 {
-    width: 60%; }
+  #skills .items {
+    display: grid;
+    grid-template-columns: 1fr; }
   #contact .social {
     display: flex;
     justify-items: center;
