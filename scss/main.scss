@@ -103,7 +103,7 @@ h2 {
 
   p {
     margin: 2rem 4rem;
-    padding: 0 7rem;
+    padding: 0 8rem;
   }
 
   .button {
@@ -307,6 +307,12 @@ height: 30px;
   }
 }
 
+#skills {
+  p.item-text-category {
+      font-size: 1rem;
+    }
+  
+}
 
 #contact {
 
@@ -340,12 +346,7 @@ height: 30px;
         transform: translateY(-15px);
       }
     }
-  }
-
-  .skill-contact {
-    display: flex;
-  }
-  
+  }  
 
 #main-footer {
   color: $light-color;
