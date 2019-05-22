@@ -126,12 +126,25 @@ h2 {
 .carousel-control-prev,
 .carousel-control-next {
   width: 7%;
-  animation: blink 2s linear infinite;
+  
 }
 
-@keyframes blink{
+.carousel-control-prev {
+  animation: blink1 1s linear infinite;
+}
+
+.carousel-control-next{
+  animation: blink2 1s linear infinite;
+}
+
+@keyframes blink1{
   0%{opacity: 0.5;}
   100%{opacity: 1;}
+  }
+
+@keyframes blink2{
+  0%{opacity: 1;}
+  100%{opacity: 0.5;}
   }
 
 .carousel-control-next-icon, 
