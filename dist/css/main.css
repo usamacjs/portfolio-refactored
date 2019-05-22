@@ -268,7 +268,7 @@ h2 {
   #main-footer p {
     padding: 1rem; }
 
-@media (min-width: 501px) and (max-width: 800px) {
+@media (min-width: 501px) and (max-width: 1100px) {
   .items {
     margin: 1rem 3rem; }
   .item-text-wrap .category {
