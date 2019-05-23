@@ -353,13 +353,13 @@ h2 {
 
 @media (max-height: 580px) {
   #showcasee {
-    height: 100vh; }
+    height: 110vh; }
     #showcasee .display-1 {
       font-size: 2.5rem; }
     #showcasee .display-4 {
       font-size: 1.5rem; }
     #showcasee h4 {
-      padding-top: calc(21vh); }
+      padding-top: calc(20vh); }
     #showcasee p {
       margin: 1rem;
       font-size: .55rem; }
