@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/usamacjs/portfolio-refactored#readme",
   "devDependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
